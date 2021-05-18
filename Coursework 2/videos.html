@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <title>Mateusz Perkowski - Artist</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<section id="banner">
+    <img src="img/logo.png" class="logo" alt="logophoto">
+    <div class="banner-text">  
+     <section id="pic">
+        <div class="portfolio-text">
+         <p>VIDEOS</p>
+          </div>            
+ <div class="single-service"><center><video controls width="600px" height="400px" poster="img/poster-music.jpg">
+    <source src="vid/grind.mp4" type="video/mp4">
+    <p>Sorry, your browser does not support the video element. You can download the video <a href="vid/grind.mp4">here</a>
+    </p>
+  </video>
+     </center>
+  </div>       
+ <div class="single-service"><center><video controls width="600px" height="400px" poster="img/poster-advert.jpg">
+     <source src="vid/lipstick.mp4" type="video/mp4">
+    <p>Sorry, your browser does not support the video element. You can download the video <a href="vid/lipstick.mp4">here</a>
+    </p>
+  </video>
+     </center>div>
+     <div class="single-service"><center><video controls width="600px" height="400px" poster="img/poster-report.jpg">
+     <source src="vid/Sportgas.mp4" type="video/mp4">
+    <p>Sorry, your browser does not support the video element. You can download the video <a href="vid/Sportgas.mp4">here</a>
+    </p>
+  </video>          
+         </center>
+         </div>      
+         </div>
+        </section>    
+    </div>
+</section>
+    <div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>     
+        </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+    <img src="img/menu.png" id="menu" alt="menubutton">
+    </div>
+    <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    sideNav.style.right = "-250px"
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0"; 
+        }
+        else{
+           sideNav.style.right = "-250"; 
+}}
+</script>
+
+</body>
+</html>
+

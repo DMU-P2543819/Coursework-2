@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <title>Mateusz Perkowski - Artist</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner">
+    <img src="img/logo.png" class="logo">
+    <div class="banner-text">     
+     <section id="pic">
+        <div class="portfolio-text">
+            <p>PHOTOS</p>
+         </div>  
+         <div class="service-box">   
+             <div class="single-service"><img src="img/IMG_0571.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0575.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0590.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0596.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0607.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0638.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0640.JPG"></div>
+             <div class="single-service"><img src="img/IMG_0655.JPG"></div>             
+         </div>
+        </section>     
+    </div>
+</section>
+    <div id="sideNav">
+    <nav>
+        <ul>
+           <li><a href="index.html">HOME</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="videos.html">VIDEOS</a></li>    
+        
+        </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+    <img src="img/menu.png" id="menu">
+    </div>
+    <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    sideNav.style.right = "-250px"
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+         
+        }
+        else{
+           sideNav.style.right = "-250";      
+}}
+</script>
+ 
+</body>
+</html>
+
